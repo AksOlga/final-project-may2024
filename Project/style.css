@@ -291,16 +291,15 @@ html{
 }
 .all-icons-two{
     display: flex;
-    width: 1200px;
-    height: 431px;
-    padding: 0 87px;
+    width: 1026px;
+    height: 281px;
+    flex-shrink: 0;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     gap: 60px;
-    flex-shrink: 0;
-    margin-top: 60px;
+    padding: 60px 87px 0 87px ;
 }
 .all-icons-two svg{
     width: 60px;
@@ -324,4 +323,60 @@ html{
     align-items: center;
     flex-direction: column;
 
+
+}
+
+.fifth{
+    display: flex;
+    width: 1280px;
+    padding: 80px 182px 100px 183px;
+    justify-content: center;
+    align-items: center;
+    background: #F6F6F6;
+    gap: 30px;
+}
+
+.fifth h2{
+    width: 300px;
+    color: #545454;
+    font-family: Georgia, serif;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%; /* 45.5px */
+    letter-spacing: 2.1px;
+}
+.fifth p:first-child{
+    color:  #545454;
+    font-family: Georgia, serif;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%; /* 16.5px */
+    letter-spacing: 0.9px;
+}
+.fifth button{
+    display: flex;
+    padding: 10px 15px;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    border-radius: 9px;
+    background: #F1CDB3;
+    color: #545454;
+    font-family: Georgia, serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 115%; /* 23px */
+    letter-spacing: 1.2px;
+}
+.fifth p:last-child{
+    width: 380px;
+    color:  #B2B2B2;
+    font-family: Arial, serif;
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 18px; /* 150% */
 }
