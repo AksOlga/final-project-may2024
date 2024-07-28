@@ -265,6 +265,63 @@ html{
     line-height: 130%; /* 22.1px */
     letter-spacing: 1.02px;
 
-
 }
 
+
+.quarter{
+    display: flex;
+    width: 1280px;
+    padding: 80px 40px 100px 40px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background:  #FFF;
+}
+.quarter h1{
+    color: #545454;
+    text-align: center;
+    font-family: Georgia, serif;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%; /* 45.5px */
+    letter-spacing: 2.1px;
+    width: 310px;
+    height: 90px;
+}
+.all-icons-two{
+    display: flex;
+    width: 1200px;
+    height: 431px;
+    padding: 0 87px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 60px;
+    flex-shrink: 0;
+    margin-top: 60px;
+}
+.all-icons-two svg{
+    width: 60px;
+    height: 60px;
+    flex-shrink: 0;
+}
+.all-icons-two p{
+    color:  #545454;
+    text-align: center;
+    font-family: Georgia, serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 115%; /* 23px */
+    letter-spacing: 1.2px;
+    margin-top: 30px;
+}
+.icon-two{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
