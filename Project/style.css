@@ -5,8 +5,8 @@
     box-sizing: border-box;
 }
 html{
-    display: flex;
-    justify-content: center;
+    /*display: flex;*/
+    /*justify-content: center;*/
 }
 .first{
     width: 1280px;
@@ -131,6 +131,11 @@ html{
     gap: 10px;
     border-radius: 100px;
     background: #F1CDB3;
+
+}
+
+.main div:nth-child(1) button a{
+    text-decoration: none;
     color: #292929;
     font-family: Georgia, serif;
     font-size: 17px;
@@ -145,8 +150,6 @@ html{
     justify-content: center;
     align-items: center;
 }
-
-
 
 
 
@@ -239,6 +242,10 @@ html{
     gap: 10px;
     border-radius: 100px;
     border: 2px solid  #F1CDB3;
+
+}
+.icon button a{
+    text-decoration: none;
     color: #292929;
     font-family: Georgia, serif;
     font-size: 17px;
@@ -246,8 +253,6 @@ html{
     font-weight: 400;
     line-height: 130%; /* 22.1px */
     letter-spacing: 1.02px;
-
-
 }
 .third>button{
     display: flex;
@@ -257,6 +262,11 @@ html{
     gap: 10px;
     border-radius: 100px;
     background: #F1CDB3;
+
+
+}
+.third>button>a{
+    text-decoration: none;
     color:  #292929;
     font-family: Georgia, serif;
     font-size: 17px;
@@ -264,7 +274,6 @@ html{
     font-weight: 400;
     line-height: 130%; /* 22.1px */
     letter-spacing: 1.02px;
-
 }
 
 
@@ -276,6 +285,18 @@ html{
     align-items: center;
     flex-direction: column;
     background:  #FFF;
+}
+.quarter>div:nth-child(1){
+    display: flex;
+    width: 1200px;
+    height: 431px;
+    padding: 0 87px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    flex-shrink: 0;
+
 }
 .quarter h1{
     color: #545454;
@@ -293,13 +314,12 @@ html{
     display: flex;
     width: 1026px;
     height: 281px;
-    flex-shrink: 0;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
     flex-wrap: wrap;
-    gap: 60px;
-    padding: 60px 87px 0 87px ;
+    justify-content: space-around;
+    align-items: center;
+    gap: 80px;
+    flex-shrink: 0;
 }
 .all-icons-two svg{
     width: 60px;
@@ -333,7 +353,15 @@ html{
     justify-content: center;
     align-items: center;
     background: #F6F6F6;
-    gap: 30px;
+    gap: 30px
+
+}
+.fifth .text-two{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 20px;
 }
 
 .fifth h2{
@@ -346,10 +374,10 @@ html{
     line-height: 130%; /* 45.5px */
     letter-spacing: 2.1px;
 }
-.fifth p:first-child{
+.fifth p{
     color:  #545454;
     font-family: Georgia, serif;
-    font-size: 50px;
+    font-size: 15px;
     font-style: normal;
     font-weight: 400;
     line-height: 110%; /* 16.5px */
@@ -371,7 +399,7 @@ html{
     line-height: 115%; /* 23px */
     letter-spacing: 1.2px;
 }
-.fifth p:last-child{
+.text-two p:last-child{
     width: 380px;
     color:  #B2B2B2;
     font-family: Arial, serif;
@@ -379,4 +407,92 @@ html{
     font-style: italic;
     font-weight: 400;
     line-height: 18px; /* 150% */
+}
+.sixth {
+    width: 1280px;
+    height: 350px;
+    flex-shrink: 0;
+    background-image: url(img/img_5.png);
+    display: grid;
+    align-items: start;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+.info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact{
+    display: flex;
+    width: 278px;
+    padding-right: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+    margin: 56px 0 60px 40px;
+
+}
+.visit{
+    width: 302px;
+    flex-shrink: 0;
+    display: flex;
+    padding-right: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 35px;
+    margin: 56px 0 60px 40px;
+}
+.contact h2{
+    width: 279px;
+    color:  #FFF;
+    font-family: Georgia, serif;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%; /* 45.5px */
+    letter-spacing: 2.1px;
+}
+.visit h2{
+    width: 270px;
+    color:  #FFF;
+    font-family: Georgia, serif;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%; /* 45.5px */
+    letter-spacing: 2.1px;
+
+}
+.sixth p{
+    color:  #F1CDB3;
+    font-family: Georgia, serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 115%; /* 23px */
+    letter-spacing: 1.2px;
+
+}
+.sixth>.contact>.info>svg{
+    margin-right: 20px;
+    width: 40px;
+    height: 32px;
+    flex-shrink: 0;
+}
+.sixth>.visit>.info>svg{
+    margin-right: 20px;
+    width: 22px;
+    height: 32px;
+    flex-shrink: 0;
+}
+
+.sixth img{
+    width: 300px;
+    height: 310px;
+    flex-shrink: 0;
+    margin-top: 40px;
 }
