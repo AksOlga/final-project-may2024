@@ -284,6 +284,7 @@
     gap: 60px;
     flex-shrink: 0;
 
+
 }
 .quarter h1{
     color: #545454;
@@ -297,6 +298,7 @@
     width: 310px;
     height: 90px;
 }
+
 .all-icons-two{
     display: flex;
     width: 1026px;
