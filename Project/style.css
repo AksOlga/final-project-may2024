@@ -111,6 +111,7 @@
     line-height: 160%; /* 24px */
 }
 .main div:nth-child(1) button{
+    border: none;
     display: flex;
     padding: 15px 45px;
     flex-direction: column;
@@ -222,6 +223,7 @@
     letter-spacing: 1.2px;
 }
 .icon button{
+
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -242,6 +244,7 @@
     letter-spacing: 1.02px;
 }
 .third>button{
+    border: none;
     display: flex;
     padding: 15px 45px;
     flex-direction: column;
@@ -373,6 +376,7 @@
     letter-spacing: 0.9px;
 }
 .fifth button{
+    border: none;
     display: flex;
     padding: 10px 15px;
     flex-direction: row;
